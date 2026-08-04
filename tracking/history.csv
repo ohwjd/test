@@ -1,1 +1,2 @@
 timestamp,task_id,subtask_id,user_id,action,outcome,detail,command,version,input
+2026-08-04T11:28:34.695Z,,,38179254,submit_encoding,rejected,unknown_task,campaign.submitComment,1,"{""task_id"":""T0001"",""subtask_id"":"""",""kind"":""question"",""parent_id"":""""}"
