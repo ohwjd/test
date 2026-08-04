@@ -1,0 +1,37 @@
+schema_version: 3
+campaign:
+  name: "test"
+  title: "rtrgc xvaet"
+  description: ""
+  instigator: "38179254"
+  repo_id: 1322781965
+  language: "en"
+  license: "CC-BY-4.0"
+automation:
+  central_repository: "lets-encode/instigation"
+  ref: "main"
+  path: "scripts/coordinator.ts"
+source:
+  kind: "mei-template"
+  images: []
+  header:
+    title: ""
+    composer: ""
+    publisher: ""
+    date: ""
+  rights_acknowledged: "1"
+pieces:
+  - id: "piece-03"
+    kind: "encoded"
+    path: "sources/piece-03/score.mei"
+    zones: []
+    header:
+      title: "03_Mondnacht-am-Meer_markup"
+      composer: ""
+fragmentation:
+  strategy: "by-piece"
+validation:
+  required_validations: 1
+  pass_threshold: 1
+locking:
+  stale_after_minutes: 120
